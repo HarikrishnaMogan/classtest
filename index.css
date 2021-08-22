@@ -1,22 +1,22 @@
-#container{
+.maincontainer{
     width:300px;
     height:auto;
     background-color: rgb(214, 214, 214);
     margin:auto;
-    padding: 3px;
+    padding: 10px;
     box-shadow: 1px 2px 5px black;
     border-radius: 5px;
+    transition: all 2s ease;
+}
+body{
+    background-color: rgb(32, 32, 32);
 }
 .image{
    width:50px;
    height:50px;
    border-radius:50%;
-   float: left;
-   margin-right:10px;
 }
-.details{
- 
-}
+
 .name{
     font-weight: bold;
 }
@@ -26,6 +26,46 @@
     color:gray;
 }
 .sub-con{
-    clear:both;
-   margin: 30px 10px;
+display: flex;
+align-items: center;
+gap:10px;
+padding: 10px;
+background-color: azure;
+margin: 10px 0;
+box-shadow: 1px 1px 2px gray;
+border-radius: 10px;
+}
+.form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.form input{
+     height:20px;
+     padding:10px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(16, 14, 32);
+     color:grey;
+}
+.form button{
+    max-width:50%;
+    padding:10px;
+    border:none;
+    background-color: rgb(45, 51, 45);
+    color:whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px lightblue,1px 1px 5px rgb(151, 67, 113);
+}
+.form button:active{
+    background-color: rgb(54, 83, 54);
+    transform: scale(1.03);
+}
+.delete{
+    padding:5px;
+    background-color: rgb(1, 168, 118);
+    border:none;
+    color:rgb(218, 210, 210);
+    border-radius: 5px;
 }
