@@ -69,3 +69,6 @@ border-radius: 10px;
     color:rgb(218, 210, 210);
     border-radius: 5px;
 }
+.edit{
+    display:none;
+}
